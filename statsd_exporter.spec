@@ -3,7 +3,7 @@
 %global group prometheus
 
 Name:    statsd_exporter
-Version: 0.30.0
+Version: 0.31.0
 Release: 1%{?dist}
 Summary: Export StatsD metrics in Prometheus format.
 License: ASL 2.0
@@ -54,5 +54,7 @@ exit 0
 %{_unitdir}/%{name}.service
 
 %changelog
+* Tue Sep 22 2026 Ivan Garcia
+- Bump version to 0.31.0
 * Wed Jun 10 2026 Ivan Garcia <igarcia@cloudox.org> - 0.30.0
 - Initial packaging for the 0.30.0 branch
